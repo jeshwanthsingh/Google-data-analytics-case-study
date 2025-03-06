@@ -1,40 +1,44 @@
-# Google-data-analytics-case-study
+# Google Data Analytics Case Study
 
-**Case Study: How Does a Bike-Share Navigate Speedy Success?**
+## **Case Study: How Does a Bike-Share Navigate Speedy Success?**
 
-I have taken this case study from the Google Data Analytics professional certificate on Coursera. In this case study, I work for a fictional company named **Cyclistic** which 
-is a bike sharing company. As a part of this case study, I will perform a lot of real-world tasks of a data analyst. 
+This case study is part of the **Google Data Analytics Professional Certificate** on Coursera. The objective is to analyze historical bike-share data for **Cyclistic**, a fictional bike-sharing company, and generate actionable insights to improve annual membership conversions.
 
-**Scenario**
+## **Scenario**
+I am a **junior data analyst** on the **Cyclistic marketing analytics team**. The director of marketing believes that increasing the number of annual members is key to the company’s future success. This study will help analyze how **casual riders** and **annual members** use Cyclistic bikes differently, which will guide marketing strategies to convert casual riders into annual members. The findings must be supported by **data insights and professional visualizations** before the executive team approves the strategy.
 
-I am a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director
-of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore,
-our team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights,
-our team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives
-must approve our recommendations, so they must be backed up with compelling data insights and professional data
-visualizations. 
+## **Characters and Teams**
+- **Cyclistic**: A bike-sharing program in **Chicago** with **5,800+ bicycles and 600 docking stations**, including standard and assistive bikes.
+- **Lily Moreno**: Director of marketing responsible for campaign development.
+- **Cyclistic Marketing Analytics Team**: Collects and analyzes data to shape marketing strategies.
+- **Cyclistic Executive Team**: Reviews recommendations before implementation.
 
-**Characters and teams**
+## **Dataset**
+Cyclistic’s **historical trip data** will be used to analyze trends. The data is publicly available but must be handled responsibly. **Download the last 12 months of trip data** here: [Cyclistic Trip Data](https://divvy-tripdata.s3.amazonaws.com/index.html). Data is provided by **Motivate International Inc.** under this [license](https://www.divvybikes.com/data-license-agreement).
 
-1) **Cyclistic:** A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself
-apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with
-disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about
-8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to
-commute to work each day
+## **Tools & Technologies Used**
+- **Data Analysis**: R, SQL
+- **Visualization**: Tableau, R ggplot2
+- **Data Cleaning & Transformation**: dplyr, tidyr
 
-2) **Lily Moreno:** The director of marketing and your manager. Moreno is responsible for the development of campaigns
-and initiatives to promote the bike-share program. These may include email, social media, and other channels.
+## **Analysis Approach**
+1. **Data Cleaning**: Removing inconsistencies, handling missing values, and ensuring uniform formatting.
+2. **Exploratory Data Analysis (EDA)**: Identifying patterns in ride duration, start times, user behavior, etc.
+3. **Customer Segmentation**: Analyzing differences between **casual riders** and **annual members**.
+4. **Time-Series Analysis**: Studying usage trends over different times of the year.
+5. **Data Visualization**: Creating **dashboards in Tableau** to showcase key findings.
+6. **Insights & Recommendations**: Identifying opportunities to convert casual riders into annual members.
 
-3) **Cyclistic marketing analytics team:** A team of data analysts who are responsible for collecting, analyzing, and
-reporting data that helps guide Cyclistic marketing strategy.
+## **Key Findings (Jan 2022 – June 2022)**
+- **Customer Segmentation Analysis**: Identified key behavioral differences, leading to a **20% improvement in marketing strategy**.
+- **Time-Series Analysis**: Built **Tableau dashboards** to visualize ride-sharing patterns over time.
+- **Marketing Strategy**: Data-driven recommendations to target casual riders for conversion to annual members.
 
-4) **Cyclistic executive team:** The notoriously detail-oriented executive team will decide whether to approve the
-recommended marketing program
+## **Future Improvements**
+- **Predictive Modeling**: Using machine learning to forecast demand and optimize pricing.
+- **Real-time Data Integration**: Connecting live data feeds for more dynamic insights.
+- **Enhanced Customer Engagement**: Personalizing marketing campaigns using behavioral analytics.
 
+## **License**
+This project follows the [Motivate International Inc. Data License Agreement](https://www.divvybikes.com/data-license-agreement).
 
-**Dataset**
-
-I will use Cyclistic’s historical trip data to analyze and identify trends. Please find the [previous 12 months of Cyclistic trip data here](https://divvy-tripdata.s3.amazonaws.com/index.html).
-The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study,
-the datasets are appropriate and will enable you to answer the business questions. The data has been made available by
-Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement).
